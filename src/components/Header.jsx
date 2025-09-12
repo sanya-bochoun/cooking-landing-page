@@ -13,7 +13,7 @@ const Header = () => {
               <img 
                 src="/src/assets/logo/Foodieland..png" 
                 alt="Foodieland Logo" 
-                className="w-[110px] h-[30px] object-contain"
+                className="w-[110px] h-[30px] object-contain drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.nextSibling.style.display = 'block';
@@ -60,7 +60,7 @@ const Header = () => {
               {/* Facebook */}
               <a 
                 href="#" 
-                className="text-gray-900 hover:text-orange-600 transition-colors duration-200"
+                className="text-gray-900 hover:text-orange-600 hover:animate-bounce transition-colors duration-200"
               >
                 <img 
                   src="/src/assets/icons/001-facebook.png" 
@@ -77,7 +77,7 @@ const Header = () => {
               {/* Twitter */}
               <a 
                 href="#" 
-                className="text-gray-900 hover:text-orange-600 transition-colors duration-200"
+                className="text-gray-900 hover:text-orange-600 hover:animate-bounce transition-colors duration-200"
               >
                 <img 
                   src="/src/assets/icons/003-twitter.png" 
@@ -94,7 +94,7 @@ const Header = () => {
               {/* Instagram */}
               <a 
                 href="#" 
-                className="text-gray-900 hover:text-orange-600 transition-colors duration-200"
+                className="text-gray-900 hover:text-orange-600 hover:animate-bounce transition-colors duration-200"
               >
                 <img 
                   src="/src/assets/icons/004-instagram.png" 
@@ -141,7 +141,7 @@ const Header = () => {
                 <img 
                   src="/src/assets/logo/Foodieland..png" 
                   alt="Foodieland Logo" 
-                  className="w-[110px] h-[30px] object-contain"
+                  className="w-[110px] h-[30px] object-contain drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
                   onError={(e) => {
                     e.target.style.display = 'none';
                     e.target.nextSibling.style.display = 'block';
@@ -204,7 +204,7 @@ const Header = () => {
                 <div className="flex justify-center space-x-6">
                   <a 
                     href="#" 
-                    className="text-gray-900 hover:text-orange-600 transition-colors duration-200"
+                    className="text-gray-900 hover:text-orange-600 hover:animate-bounce transition-colors duration-200"
                   >
                     <img 
                       src="/src/assets/icons/001-facebook.png" 
@@ -219,7 +219,7 @@ const Header = () => {
                   </a>
                   <a 
                     href="#" 
-                    className="text-gray-900 hover:text-orange-600 transition-colors duration-200"
+                    className="text-gray-900 hover:text-orange-600 hover:animate-bounce transition-colors duration-200"
                   >
                     <img 
                       src="/src/assets/icons/003-twitter.png" 
@@ -234,7 +234,7 @@ const Header = () => {
                   </a>
                   <a 
                     href="#" 
-                    className="text-gray-900 hover:text-orange-600 transition-colors duration-200"
+                    className="text-gray-900 hover:text-orange-600 hover:animate-bounce transition-colors duration-200"
                   >
                     <img 
                       src="/src/assets/icons/004-instagram.png" 
