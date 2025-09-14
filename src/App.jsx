@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import HeroSlider from './components/HeroSlider'
+import Categories from './components/Categories'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main className="w-full">
         <HeroSlider />
+        <Categories />
       </main>
     </div>
   )
